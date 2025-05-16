@@ -1,11 +1,33 @@
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
+  --title-lr-margin: 40px;
 }
 
-.logo {
+.wrapper {
+  background-color: rgba(240, 122, 255, 0.627);
+  padding: 15px;
+  border-radius: 25px;
+}
+
+h1 {
+  margin-left: var(--title-lr-margin);
+  margin-right: var(--title-lr-margin);
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -39,4 +61,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */

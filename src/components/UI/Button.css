@@ -1,0 +1,11 @@
+button {
+  font-size: 30px;
+}
+
+.sim {
+  background-color: rgb(11, 178, 11);
+}
+
+.nao {
+  background-color: rgb(220, 44, 44);
+}
