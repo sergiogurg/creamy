@@ -1,6 +1,7 @@
 {
   "name": "creamy",
   "private": true,
+  "homepage": "https://sergiogurg.github.io/creamy/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
