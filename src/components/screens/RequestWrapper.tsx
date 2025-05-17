@@ -12,7 +12,7 @@ function RequestWrapper({
   return (
     <div className="request-wrapper">
       <ReactAudioPlayer src={song} autoPlay={true} />
-      <h1>XXXXXXXXXXXXXXXXXX &#128144; &#129392;</h1>
+      <h1>Quer namorar comigo? &#128144;&#129392;</h1>
       <div className="button-container">
         <Button className="sim" title="Sim" onClick={onYesButtonHandler} />
         <Button
