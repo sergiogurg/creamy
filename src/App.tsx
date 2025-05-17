@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import RequestWrapper from "./components/screen/RequestWrapper";
+import RequestWrapper from "./components/screens/RequestWrapper";
 
 function App() {
   const [isSpecialModalOpen, setIsSpecialModalOpen] = useState(false);
