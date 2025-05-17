@@ -1,6 +1,8 @@
 import type RequestWrapperPropsType from "../../types/RequestWrapper/RequestWrapperPropsType";
 import Button from "../UI/Button";
 import "./RequestWrapper.css";
+import song from "../../audio/marina_sena-combo_da_sorte-cut.mp3";
+import ReactAudioPlayer from "react-audio-player";
 
 function RequestWrapper({
   posStyle,
@@ -9,6 +11,7 @@ function RequestWrapper({
 }: RequestWrapperPropsType) {
   return (
     <div className="request-wrapper">
+      <ReactAudioPlayer src={song} autoPlay={true} />
       <h1>XXXXXXXXXXXXXXXXXX &#128144; &#129392;</h1>
       <div className="button-container">
         <Button className="sim" title="Sim" onClick={onYesButtonHandler} />

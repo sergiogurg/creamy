@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import RequestWrapper from "./components/screens/RequestWrapper";
+import AcceptanceWrapper from "./components/screens/AcceptanceWrapper";
+import song from "./audio/marina_sena-combo_da_sorte-cut.mp3";
 
 function App() {
   const [isSpecialModalOpen, setIsSpecialModalOpen] = useState(false);
@@ -13,8 +15,14 @@ function App() {
   const windowWidth = window.innerWidth;
   const windowHeight = window.innerHeight;
 
+  function pauseSong() {
+    const backgroundAudio = new Audio(song);
+    backgroundAudio.pause();
+  }
+
   function openModalHandler() {
     setIsSpecialModalOpen(true);
+    pauseSong();
   }
 
   function changeButtonPositionHandler() {
@@ -36,7 +44,7 @@ function App() {
   return (
     <>
       {isSpecialModalOpen ? (
-        <div>VideoPlayer here</div>
+        <AcceptanceWrapper />
       ) : (
         <RequestWrapper
           posStyle={positionStyle}
