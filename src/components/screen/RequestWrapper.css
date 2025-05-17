@@ -1,0 +1,23 @@
+#root {
+  --title-lr-margin: 40px;
+}
+
+
+.request-wrapper {
+  background-color: rgba(240, 122, 255, 0.627);
+  padding: 15px;
+  border-radius: 25px;
+  position: relative;
+}
+
+h1 {
+  margin-left: var(--title-lr-margin);
+  margin-right: var(--title-lr-margin);
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}

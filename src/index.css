@@ -6,7 +6,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-  background-image: url(assets/realistic-emojis-background.avif);
+  background-image: url(assets/images/realistic-emojis-background.avif);
   background-repeat: repeat-y;
   background-size: cover;
 
@@ -30,7 +30,7 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 h1 {

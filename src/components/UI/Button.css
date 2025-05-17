@@ -8,4 +8,6 @@ button {
 
 .nao {
   background-color: rgb(220, 44, 44);
+  position: relative;
+  transition: all 0.5s ease-in-out;
 }
